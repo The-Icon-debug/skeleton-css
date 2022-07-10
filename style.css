@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+.container {
+    background-color: lightgreen;
+    border-color: greenyellow;
+    border: 3px;
+    border-right: 1px;
+    border-style: solid;
+    padding: 15px;
+    height: 510px;
+}
+
+.bg-lg-blue {
+    border: 3px solid blue;
+    background-color: lightblue;
+    padding: 15px;
+    height: 120px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-lg-blue div {
+    border: 3px solid brown;
+    background-color: lightsalmon;
+    height: 90px;
+    flex: 1 1 auto;
+}
+
+.bg-lg-blue > .split {
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.split div {
+    border: 3px solid red;
+    background-color: pink;
+    height: 50px;
+}
+
+.mid-section {
+    display: flex;
+    margin-bottom: 25px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /*width: 1290px;*/
+}
+
+.mid-section div {
+    width: 640px;
+}
+
+.mid-section > .main-bx {
+    height: 200px;
+    border: 3px solid brown;
+    background-color: burlywood;
+}
+
+.mid-section > .dflt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dflt div {
+    border: 3px solid brown;
+    background-color: burlywood;
+    height: 95px;
+}
+
+.bottom {
+    border: 3px solid blue;
+    background-color: lightblue;
+    padding: 10px;
+    height: 100px;
+    /*width: 1290px;*/
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom div {
+    height: 75px;
+}
+
+.bottom > .purp {
+    border: 3px solid skyblue;
+    flex: 2;
+    background-color: plum;
+}
+
+.bottom > .brwn {
+    border: 3px solid brown;
+    background-color: lightsalmon;
+    flex: 1;
+}
